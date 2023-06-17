@@ -1,0 +1,75 @@
+@charset "UTF-8";
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #35598F;
+}
+
+* {
+  position: relative;
+  font-family: "微軟正黑體";
+}
+
+#container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+
+#header {
+  border: 1px solid #000;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 80%;
+  margin: 0 auto;
+}
+#header .text {
+  color: #35598F;
+  text-align: center;
+  font-weight: 900;
+  font-size: 3rem;
+  padding: 20px 0px;
+}
+
+#card {
+  border: 1px solid #fff;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: -3px 3px 10px 1px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#card:first-child {
+  margin-top: 0;
+}
+#card:last-child {
+  margin-bottom: 0px;
+}
+#card .title, #card .content {
+  text-align: center;
+}
+#card .content {
+  text-align: left;
+}
+#card hr {
+  margin: 0;
+  width: 80%;
+}
+#card .title {
+  padding: 10px 0px;
+  font-size: 1.3rem;
+}
+#card .content {
+  padding: 15px 30px;
+  color: #666;
+  line-height: 1.8rem;
+}
+#card .content a {
+  color: #35598F;
+  font-weight: 500;
+}

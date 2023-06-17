@@ -1,0 +1,67 @@
+$color_blue: #35598F
+$color_white: #fff
+$color_gray: #666
+  
+html, body
+  width: 100vw
+  height: 100vh
+  margin: 0
+  padding: 0
+  background-color: $color_blue
+
+*
+  position: relative
+  font-family: "微軟正黑體"
+
+#container
+  width: 60%
+  margin: 0 auto
+  padding: 20px 0px
+
+#header
+  border: 1px solid #000
+  background-color: $color_white
+  border-radius: 5px
+  width: 80%
+  margin: 0 auto
+  .text
+    color: $color_blue
+    text-align: center
+    font-weight: 900
+    font-size: 3rem
+    padding: 20px 0px
+
+
+#card
+  border: 1px solid $color_white
+  width: 80%
+  margin: 20px auto
+  border-radius: 5px
+  background-color: $color_white
+  box-shadow: -3px 3px 10px 1px rgba(black, .4)
+  display: flex
+  flex-direction: column
+  align-items: center
+  &:first-child
+    margin-top: 0
+  &:last-child
+    margin-bottom: 0px
+  .title, .content
+    // border: 1px solid #000
+    text-align: center
+  .content
+    text-align: left
+  hr
+    margin: 0
+    width: 80%
+  .title
+    padding: 10px 0px
+    font-size: 1.3rem
+  .content
+    padding: 15px 30px
+    color: $color_gray
+    line-height: 1.8rem
+    a
+      color: $color_blue
+      font-weight: 500
+
